@@ -73,9 +73,3 @@ class SingleLinkedList:
 
   
 sl = SingleLinkedList()
-sl.delete(3)
-sl.insert(10,1)
-sl.insert(11,2)
-sl.insert(12,4)
-sl.insert(13,4)
-
