@@ -52,7 +52,7 @@ class SingleLinkedList:
         temp=temp.next
         i+=1
       nextnode = temp.next
-      temp.next=n.next
+      temp.next=nextnode.next
 
   #Travesal
   def travesel(self):
@@ -70,6 +70,14 @@ class SingleLinkedList:
     while temp:
       yield temp
       temp=temp.next
+      
+  #Delete entire LinkedList    
+  def deleteEntireSLL(self):
+        if self.head is None:
+            print("The SLL does not exist")
+        else:
+            self.head = None
+            self.tail = None
 
   
 sl = SingleLinkedList()
