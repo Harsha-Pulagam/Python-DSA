@@ -10,6 +10,18 @@ def preOrder(root): #root ->left ->right
   print(root.data)
   preOrder(root.left)
   preOrder(root.right)
+  '''
+  For this the following output will be like...
+  --Prorder--
+
+            Root                            --Root
+            LeftChild
+            L - LeftChild                   # L - Leftchild -> Leftside of Leftchild to root
+            L - RightChild
+            RightChild
+            R - Leftchild
+            R - RightChild
+  '''
 
 def inOrder(root): #left-> root ->right
   if not root:
@@ -17,6 +29,17 @@ def inOrder(root): #left-> root ->right
   preOrder(root.left)
   print(root.data)
   preOrder(root.right)
+  '''
+  --Inorder--
+
+          LeftChild 
+          L - LeftChild
+          L - RightChild
+          Root                              --Root
+          RightChild
+          R - Leftchild
+          R - RightChild  
+  '''
 
 def postOrder(root): #left -> right -> root
   if not root:
@@ -24,6 +47,22 @@ def postOrder(root): #left -> right -> root
   preOrder(root.left)
   preOrder(root.right)
   print(root.data)
+  
+  '''
+  --Postorder--
+
+          LeftChild
+          L - LeftChild
+          L - RightChild
+          RightChild
+          R - Leftchild
+          R - RightChild
+          Root                                --Root
+  '''
+  
+  
+  
+  
 
 rootNode = TreeNode("Root")
 
