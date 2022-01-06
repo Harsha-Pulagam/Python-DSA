@@ -38,6 +38,33 @@ class Solution:
             matrix[j].append(matrix[i][0])
             matrix[i].pop(0)
                 
+		"""
+		A Sample how the iteration goes and the values are added and poped 
+	
+	i  :  -1
+
+		j :  0
+			[1, 2, 3]
+			[1, 2, 3, 7]  .append   7
+			[7, 8, 9]  .pop(0)
+
+
+	i  :  -2
+
+		j :  0
+			[1, 2, 3, 7]
+			[1, 2, 3, 7, 4]  .append   4
+			[4, 5, 6, 8]  .pop(0)
+
+	i  :  -3
+
+		j :  0
+			[1, 2, 3, 7, 4]
+			[1, 2, 3, 7, 4, 1]  .append   1
+			[1, 2, 3, 7, 4, 1]  .pop(0)
+
+		
+		"""
               
               
                 
