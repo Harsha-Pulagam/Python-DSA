@@ -1,3 +1,4 @@
+# Run in your local for more clarity of the program
 class TreeNode:
   def __init__(self,data):
     self.data = data
@@ -17,9 +18,9 @@ def preOrder(root): #root ->left ->right
             Root                            --Root
             LeftChild
             L - LeftChild                   # L - Leftchild -> Leftside of Leftchild to root
-            L - RightChild
+            L - RightChild                  # L - Leftchild -> Leftside of Rightchild to root
             RightChild
-            R - Leftchild
+            R - Leftchild                   # R - Rightchild -> Leftside of Rightchild to root
             R - RightChild
   '''
 
