@@ -2,7 +2,7 @@
 
 ---
 
-Recently I have Found these set of Amazing questions by topic wise.
+Recently I have Found these set of Amazing questions by topic wise on online.
 
 | Topic  | Question                                     | Difficulty |
 |--------|----------------------------------------------| ---|
