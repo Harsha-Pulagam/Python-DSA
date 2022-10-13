@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Python-DSA.iml" filepath="$PROJECT_DIR$/.idea/Python-DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../nutshell/.idea/nutshell.iml" filepath="$PROJECT_DIR$/../nutshell/.idea/nutshell.iml" />
     </modules>
   </component>
 </project>
