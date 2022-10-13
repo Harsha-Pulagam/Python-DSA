@@ -8,3 +8,4 @@ Recently I have Found these set of Amazing questions by topic wise on online.
 |---------|------------------------------------------------------------------------------------------------------------------------|------------|
 | Arrays  | [ Maximum and Minimum Element in an Array](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/MinMaxOfArray.py) | Easy       |
 | Arrays  | [Reversa a list](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseList.py)                                                                                                     | Easy       |
+| LinkedList| [Reverse Linkedlist](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseLinkedList.py)| Easy       |
