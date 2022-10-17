@@ -7,6 +7,6 @@ Recently I have Found these set of Amazing questions by topic wise on online.
 | Topic    | Question                                                                                                               | Difficulty |
 |----------|------------------------------------------------------------------------------------------------------------------------|------------|
 | Arrays   | [ Maximum and Minimum Element in an Array](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/MinMaxOfArray.py) | Easy       |
-| Arrays   | [Reversa a list](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseList.py)                                                                                                     | Easy       |
-|Arrays    |Maximum-Subarray|Easy|
-| LinkedList | [Reverse Linkedlist](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseLinkedList.py)| Easy       |
+| Arrays   | [Reversa a list](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseList.py)                             | Easy       |
+|Arrays    | [Maximum-Subarray](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/Maximum-Subarray.py)                      |Easy|
+| LinkedList | [Reverse Linkedlist](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseLinkedList.py)                   | Easy       |
