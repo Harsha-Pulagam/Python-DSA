@@ -17,15 +17,15 @@ Input: nums = [5,4,-1,7,8]       Output: 23
 Sol:
 We can observe a lot of repeated calculations if we draw out the recursive tree for above solution -
 
-                                                f(0, False)                       🔽 => repeated calculations
+                                                                    f(0, False)                       🔽 => repeated calculations
 					                          /             \
-                       		       f(1, False)              f(1, True)
-			                      /          \             🔽          \           🔽
-			                 f(2, False)      f(2, True)           f(2, True)
-							/            \        🔽       \         🔽           \  🔽
-						f(3, False)   f(3,True)     f(3, True)           f(3, True)
-						/        \            \           \                  \                 \
-				      ...        ...          ...         ...                ...               ...
+                       		                        f(1, False)              f(1, True)
+			                               /          \    🔽          \   🔽
+			                         f(2, False)      f(2, True)      f(2, True)
+					          /       \  🔽      \     🔽         \  🔽
+				          f(3, False)   f(3,True)     f(3, True)       f(3, True)
+				          /       \         \           \                  \                 
+				       ...        ...       ...         ...                ...  
 These redundant calculations can be eliminated if we store the results for a given state and reuse them later whenever required rather than recalculating them over and over again.
 Thus, we can use memoization technique here to make our solution more efficient. Here, we use a dp array where dp[mustPick][i] denotes the maximum sum subarray starting from i and mustPick denotes wheter the current element must be picked compulsorily or not.
 '''
