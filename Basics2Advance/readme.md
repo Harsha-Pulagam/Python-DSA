@@ -8,4 +8,6 @@
 
 **Theta notation** is a combination of Big O and Omega notation, and represents the tight bound on the growth rate of a function. It is denoted as Θ(f(n)), and is used to express the asymptotic behavior of a function when both the upper and lower bounds are known.
 
-I*n summary, asymptotic analysis is a method of **analyzing the behavior of a function as the input size becomes infinite**, and is often expressed using Big O, Omega, or Theta notation, which represent upper, lower, and tight bounds on the growth rate of the function, respectively.*
+**Auxiliary space** is the extra space used by an algorithm beyond the input size. It is often used to store temporary variables or data structures
+
+*In summary, asymptotic analysis is a method of **analyzing the behavior of a function as the input size becomes infinite**, and is often expressed using Big O, Omega, or Theta notation, which represent upper, lower, and tight bounds on the growth rate of the function, respectively.*
