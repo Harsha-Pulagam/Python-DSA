@@ -11,3 +11,12 @@
 **Auxiliary space** is the extra space used by an algorithm beyond the input size. It is often used to store temporary variables or data structures
 
 *In summary, asymptotic analysis is a method of **analyzing the behavior of a function as the input size becomes infinite**, and is often expressed using Big O, Omega, or Theta notation, which represent upper, lower, and tight bounds on the growth rate of the function, respectively.*
+
+---
+Handy NoteBook
+* While dealing with divisors
+  * Divisors always appear in pairs like.. 
+    * 10 -> (1,10),(2,5)
+    * 30 -> (1,30), (2,15), (3,10), (5,6)
+  * One of the divisor in every paair is smaller or equal to n^1/2.
+    * let say x*y = n and x<= y, i.e x*x <= n , x = n^1/2
