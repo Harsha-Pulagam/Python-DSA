@@ -19,7 +19,7 @@ Handy NoteBook
     * 10 -> (1,10),(2,5)
     * 30 -> (1,30), (2,15), (3,10), (5,6)
   * One of the divisor in every pair is smaller or equal to n^1/2.
-    * let say x*y = n and x<= y, i.e x*x <= n , x = n^1/2
+    * let say `x*y = n and x<= y, i.e x*x <= n , x = n^1/2`
 * Dealing with primes ?
 ```commandline
 def isPrime(n):
@@ -61,3 +61,6 @@ def digitsInFactorial(self,N):
 ```
 * For Better understanding of above logic
 <img width="992" alt="Screenshot 2022-12-28 at 21 06 15" src="https://user-images.githubusercontent.com/45511185/209836123-c809f7e0-4e97-473a-a146-d4292e2d1e20.png">
+* Modulus `(a*b)%m == 1`
+* 
+
