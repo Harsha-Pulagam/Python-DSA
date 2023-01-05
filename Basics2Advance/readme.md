@@ -62,5 +62,35 @@ def digitsInFactorial(self,N):
 * For Better understanding of above logic
 <img width="992" alt="Screenshot 2022-12-28 at 21 06 15" src="https://user-images.githubusercontent.com/45511185/209836123-c809f7e0-4e97-473a-a146-d4292e2d1e20.png">
 * Modulus `(a*b)%m == 1`
-* 
+* Given a positive integer value N. The task is to find how many numbers less than or equal to N have numbers of divisors exactly equal to 3.
+  * Example 1:
+  In:
+  N = 6
+  Out: 1
+  Explanation: The only number less than 6 with 
+  3 divisors is 4.
+  
+  * Example 2:
+In:
+N = 10
+Out: 2
+Explanation: 4 and 9 have 3 divisors.
+```commandline
+import math
+def exactly3Divisors(self,N):
+       root_N = math.floor(pow(N, 0.5)) + 1
+       isPrime = [True] * root_N
+       
+       for i in range(2, root_N):
+           for j in range(i*i, root_N, i):
+               isPrime[j] = False
+               
+       ans = 0    
+       for i in range(2, root_N):
+           if isPrime[i] == True:
+               ans += 1
+               
+       return ans
+```
+
 
