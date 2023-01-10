@@ -92,5 +92,25 @@ def exactly3Divisors(self,N):
                
        return ans
 ```
-
-
+---
+### Lists in Python
+1. Dynamic and allows items of all types
+2. Internal working
+   1. Advantages
+      1. Random access
+      2. Cache friendly
+   2. Disadvantages
+      1. Slow during insertion or deletion
+      2. Search is slow (sorted)
+```commandline
+# few built-in lib's
+l = [] or l = [1,2,3,6,"t",0]
+l.append()
+l.insert(index,val)
+l.index(val)           #will retrun the first occurence of the value in list
+l.count(val)           #retunrs the no.of occurnces
+l.remove(val)
+l.pop(index)
+del l[index]
+min(l)           max(l)            sum(l)           l.reverse()           l.sort()
+```
