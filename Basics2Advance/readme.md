@@ -114,3 +114,16 @@ l.pop(index)
 del l[index]
 min(l)           max(l)            sum(l)           l.reverse()           l.sort()
 ```
+#### Know Recursion or about _Tail Recursion_ ?
+* Recursion - calling directly or indirectly
+  * There should be one change in parameter so that call approaches towards _BASE case_.
+  * used in Dynamic programming, Back tracking , Divide and conquer .....
+* Tail Recursion - If the function doest not do anything after last recursive call.
+  *  _NO TAIL CALL ELIMINATION_  in python
+```commandline
+Few Problems to get good touch on LIST / RECURSION
+1. Reverse a list 
+2. Remove duplicate in list
+3. Left Rotate or Couterclock wise by n
+4. Write Pandlidrome or Sum of Digits in Number ?
+```
