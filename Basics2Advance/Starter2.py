@@ -46,3 +46,11 @@ def SieveOfEratosthenes(num):
 			print(p)
 
 SieveOfEratosthenes(25)
+
+def GCD(self,a,b):
+	if a>b:
+		return self.GCD(a-b,b)
+        elif a<b:
+                return self.GCD(a,b-a)
+        else:
+		return a
