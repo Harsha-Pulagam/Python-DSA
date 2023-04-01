@@ -127,3 +127,37 @@ Few Problems to get good touch on LIST / RECURSION
 3. Left Rotate or Couterclock wise by n
 4. Write Pandlidrome or Sum of Digits in Number ?
 ```
+
+#### Binary Search code
+
+```
+def CommonBS(l, x):
+    low = 0
+    high = len(l) - 1
+    while low <= high:
+        mid = (low + high) // 2
+        if l[mid] > x:
+            high = mid - 1
+        elif l[mid] < x:
+            low = mid + 1
+
+        {code this part chnages and tells which side to move}  
+        
+    return -1
+```
+code this part chnages and tells which side to move
+```
+#in case of first
+else:            
+  if mid == 0 or l[mid - 1] != l[mid]:
+    return mid
+  else:
+    high = mid - 1
+
+#in case of last
+else:
+  if mid == len(l) - 1 or l[mid] != l[mid + 1]:
+      return mid
+    else:
+      low = mid + 1
+```

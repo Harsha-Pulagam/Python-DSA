@@ -21,8 +21,6 @@ def find_LastOcurranceBS(list,val):   #if list is not sorted sort it using sort(
             l = m+1
     return -1
 
-
-
 list = [1,2,3,4,4,5,6,7,7,9]
 
 findfirstocurrance(list,4)

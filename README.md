@@ -12,3 +12,5 @@ Recently I have Found these set of Amazing questions by topic wise on online.
 | LinkedList | [Reverse Linkedlist](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/ReverseLinkedList.py)                   | Easy       |
 | Lists      | [Container with most water](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/Container%20with%20most%20water)                                                                                          | Medium     |
 | Lists | [MakeArrayUniq](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/MakeArrayElementsUniq.py)                                                                                                      | Medium       |
+| Lists | [OcuuranceOfelement using Binary Search](https://github.com/BHariKrishnaReddy/Python-DSA/blob/main/Basics2Advance/lastoccurenceinListBS.py)                                                                                                      | Medium       |
+
