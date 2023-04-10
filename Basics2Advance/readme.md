@@ -145,6 +145,7 @@ def CommonBS(l, x):
         
     return -1
 ```
+
 code this part chnages and tells which side to move
 ```
 #in case of first
