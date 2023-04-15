@@ -13,7 +13,7 @@
 *In summary, asymptotic analysis is a method of **analyzing the behavior of a function as the input size becomes infinite**, and is often expressed using Big O, Omega, or Theta notation, which represent upper, lower, and tight bounds on the growth rate of the function, respectively.*
 
 ---
-Handy NoteBook
+**Handy NoteBook**
 * While dealing with divisors
   * Divisors always appear in pairs like.. 
     * 10 -> (1,10),(2,5)
