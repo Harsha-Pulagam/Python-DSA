@@ -20,6 +20,28 @@
     * 30 -> (1,30), (2,15), (3,10), (5,6)
   * One of the divisor in every pair is smaller or equal to n^1/2.
     * let say `x*y = n and x<= y, i.e x*x <= n , x = n^1/2`
+  * An efficient solution for LCM is based on the below formula of two numbers ‘a’ and ‘b’.
+  ```commadline
+    # LCM or GCD
+    # a x b = LCM(a, b) * GCD (a, b)
+    # LCM(a, b) = (a x b) / GCD(a, b)
+
+    
+    def gdcmethod1(a,b): #This is euclidean distance approach
+      while a!=b:
+        if a>b:
+          a= a-b
+        else:
+          b=b-a
+      return a
+
+    def gdcmethod2(a,b):
+      #This is OPTIMIZED euclidean distance approach
+      if b==0:
+        return a
+      return gdcmethod2(b,a%b)
+    ```
+
 * Dealing with primes ?
 ```commandline
 def isPrime(n):
