@@ -1,0 +1,4 @@
+get minMax of arry -> check the no.of elements, if n=1 return or n==2 chek and retun, if n> 3 itrate from 2 to n if a[i] > min or assign them
+
+revers a list - > check the no.of elements, if n=1 return. else assign start and end swap them using temp and stop itration when start > end
+
