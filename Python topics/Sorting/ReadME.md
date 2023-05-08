@@ -14,3 +14,13 @@
 * Performs well on small lists or partially sorted lists and has an advantage of being an in-place sorting algorithm (it doesn't require extra memory space)
 
     > best O(n) worst-case time complexity of O(n^2)
+
+
+<details>
+  <summary>Toggle Item 1</summary>
+  <ul>
+    <li>Item 1.1</li>
+    <li>Item 1.2</li>
+    <li>Item 1.3</li>
+  </ul>
+</details>

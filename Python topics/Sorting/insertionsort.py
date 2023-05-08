@@ -7,4 +7,3 @@ def insertionsort(a):
             a[j+1]=a[j]                # creates space for x to be inserted in the correct position
             j=j-1
         a[j+1] =x                      # inserted immediately after the element that is smaller than it.
-        
