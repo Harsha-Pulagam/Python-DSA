@@ -14,3 +14,6 @@
 * Performs well on small lists or partially sorted lists and has an advantage of being an in-place sorting algorithm (it doesn't require extra memory space)
 
     > best O(n) worst-case time complexity of O(n^2)
+
+
+

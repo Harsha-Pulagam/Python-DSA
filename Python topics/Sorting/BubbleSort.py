@@ -1,5 +1,10 @@
-# naive solution ->O(n^2)
+# 
 
+
+
+
+
+# naive solution ->O(n^2)
 def Bubblesort(a) -> list:
     n=len(a)
     for i in range(n-1):
